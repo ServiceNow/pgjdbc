@@ -1,7 +1,0 @@
-package java.sql;
-
-import org.checkerframework.checker.nullness.qual.*;
-
-interface DriverManager {
-    static Connection getConnection(String url, @Nullable String user, @Nullable String password);
-}

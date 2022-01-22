@@ -1,7 +1,0 @@
-package java.lang.reflect;
-
-import org.checkerframework.checker.nullness.qual.*;
-
-interface InvocationHandler {
-    @Nullable Object invoke(Object proxy, Method method, @Nullable Object[] args);
-}

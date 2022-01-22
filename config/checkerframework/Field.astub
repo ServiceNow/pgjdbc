@@ -1,8 +1,0 @@
-package java.lang.reflect;
-
-import org.checkerframework.checker.nullness.qual.*;
-
-class Field {
-  @Nullable Object get(@Nullable Object obj);
-  int getInt(@Nullable Object obj);
-}
